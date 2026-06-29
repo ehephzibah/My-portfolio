@@ -1,0 +1,115 @@
+@media (max-width:900px) {
+
+    .project-card {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+@media(max-width:900px) {
+
+    .about-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .about-image {
+
+        order: -1;
+
+        max-width: 400px;
+
+        margin: auto;
+
+    }
+
+}
+
+@media(max-width:900px) {
+
+    .skills-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+@media(max-width:900px) {
+
+    .journey-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+
+
+.achievements {
+
+    background: #F8FAFC;
+
+}
+
+.achievement-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+
+}
+
+.achievement-card {
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 22px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    transition: .35s;
+
+}
+
+.achievement-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: var(--shadow);
+
+}
+
+.achievement-card i {
+
+    font-size: 36px;
+
+    color: var(--primary);
+
+    margin-bottom: 20px;
+
+}
+
+.achievement-card h3 {
+
+    font-size: 38px;
+
+    margin-bottom: 10px;
+
+}
+
+.achievement-card p {
+
+    color: var(--text-light);
+
+}
